@@ -125,7 +125,7 @@ flex-flow: flex-start;
   height: 54%;
   width: 46%; 
   font-display: center;
-  background-color: rgb(54, 162, 235, 0.2); 
+  background-color: #36a2eb33; 
 
 }
 
@@ -133,20 +133,20 @@ flex-flow: flex-start;
   border-bottom: 3px solid white;
   height: 53%;
   width: 46%;
-  background-color: rgb(60, 182, 182, 0.2)
+  background-color: #3cb6b633
 }
 
 .wallet-3 {
   border-top: 3px solid white;
   height: 50%;
   width: 46%;
-  background-color: rgb(255, 206, 86, 1, 0.2);
+  background-color: #ffce5633;
 }
 
 .wallet-4 {
   border-left: 3px solid rgb(255, 255, 255);
   height: 51%;
   width: 46%;
-  background-color: rgba(245, 90, 124, 0.2) 
+  background-color: #f55a7c33 
 
 }
