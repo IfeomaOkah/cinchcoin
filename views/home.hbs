@@ -1,0 +1,68 @@
+<body class="home-page">
+   <div>
+    <h3 id="logo-home">CinchCoin </h3>
+  </div>
+  {{!-- Home Header --}}
+  <div class="home-header">
+    <a href="/useraccount">
+      <img id="goldcircle" src="/images/goldcircle.png"> 
+    </a>   
+   
+    <a href="search-icon">
+      <img id="searchicon" src="/images/searchicon.png">
+    </a>   
+  </div>  
+
+
+{{!-- Total Balance --}}
+  <div class="balance">
+
+    <h1>Total Balance: 4,500</h1>
+
+    <div id="total-balance">
+
+  {{#each cinchcoin}}
+
+    <div class="wallet-coins">
+ <input type="text" name="bitcoin" value="{{this._doc.bitcoin}}">
+    <h3>{{this.bitcoin:}}<h3>
+        {{this._doc.ethereum}}
+        {{this._doc.litecoin}}
+        {{this._doc.xrp}} 
+  
+    </div>
+{{/each}}  
+    </div>
+  </div>
+
+<div class="wallet">
+<div class="wallet-1">
+  <p>Bitcoin: 70,080.31 </p>
+</div>
+
+<div class="wallet-2">
+  <p>ethereum: 30,340.17 </p>
+</div>
+<div class="wallet-3">
+  <p>Litecoin: 5,930.81 </p>
+</div>
+<div class="wallet-4">
+  <p>XRP: 2,050.31 </p>
+</div>
+  
+</div>
+
+
+
+<div class="home-container"> 
+  <div class="crypt">  
+{{!-- Home Menu --}}
+  <div id= "coin-home"class="menu">
+    <a href="/Market">Market</a>
+    <a href="/News">News</a>
+    <a href="/bitcoin">My Coins</a>
+  </div>
+{{!-- Market --}}
+
+</div> 
+</body>

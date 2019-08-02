@@ -1,0 +1,149 @@
+
+/* home page */
+.home-page {
+  width: 100%;
+    min-height: 100vh;
+    background: #005284;
+    background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174)121%);
+    color: rgb(241, 241, 241);
+}
+
+#logo-home {
+  color:#BC9F3B;
+  text-align: center;
+}
+
+
+
+#goldcircle {
+  height: 2em;
+  width: auto; 
+  float: left;
+}
+
+#searchicon {
+  height: 2em;
+  width: auto; 
+  float: right;
+  border-radius: 10px; 
+  padding-right: 10%;
+}
+
+#hello {
+  text-align: left;
+  padding-left: 4em; 
+}
+
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.crypt {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
+flex-wrap: wrap; 
+align-content: center;
+margin-left: 20%;
+
+}
+
+#coin-home {
+  height: 10vh;
+  display: block;
+  margin: 5vh 9vh 5vh 3vh;  
+  margin: 17vh 20vh -4vh 0vh;
+  text-align: center;
+}
+
+
+/* Market & News */
+.market-news {
+  width: 100%;
+    min-height: 100vh;
+    background: #005284;
+    background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174)121%);
+    color: rgb(241, 241, 241);
+}
+
+#market-container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
+flex-wrap: wrap; 
+align-content: center;
+margin: 15%;
+}
+
+.market-header {
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  flex-wrap: wrap; 
+  align-content: center;
+  margin: 15%;
+}
+.market-content {
+  align-items: left;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+
+.home-header{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 9% 5% 17% 5%;
+}
+
+#page {
+  font-size: 25px;
+}
+
+
+.wallet {
+margin: 12% 0% 0% 5%;
+height: 330px;
+width: 350px;
+background-color: rgb(0,82,132, 0.2);
+border-radius: 10px;
+display: flex; 
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: flex-start; 
+}
+
+.wallet-1 {
+  border-right: 3px solid white;
+  height: 54%;
+  width: 46%; 
+  font-display: center;
+}
+
+.wallet-2 {
+  border-bottom: 3px solid white;
+  height: 53%;
+  width: 46%; 
+  background-color: #BC9F3B;
+}
+
+.wallet-3 {
+  border-top: 3px solid white;
+  height: 50%;
+  width: 46%; 
+  background-color: #84006e;
+}
+
+.wallet-4 {
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 51%;
+  width: 46%; 
+  background-color: rgb(52, 218, 1);
+}

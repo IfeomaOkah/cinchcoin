@@ -1,0 +1,8 @@
+/* User Account*/
+.user-page {
+  width: 100%;
+    min-height: 100vh;
+    background: #005284;
+    background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174)121%);
+    color: rgb(241, 241, 241);
+}

@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+a {
+  color: rgb(240, 174, 51);
+}
+
+
+
+#logo-land {
+  margin-top: 55%;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(240, 174, 51);
+}
+
+.landing-page {
+  width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,82,132);
+    background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174) 121%);
+}
+
+.login-form {
+  margin-bottom: 90%;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  width: 70%;
+}
+
+.account-message {
+  color: white;
+}
+
+::placeholder {
+  color:black;
+  font-size: 15px;
+}
+
+#landing-btn {
+  font-size: 15px;
+  background:rgb(52, 226, 174);
+  width: 100%;
+  height: 100%;
+  padding: 8%;
+  margin-top: 0px;
+
+}
+
+.userpass {
+  width: 100%;
+  padding: 23px 20px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+.signup {
+  width: 100%;
+  min-height: 100vh;
+  background: #005284;
+  background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174)121%);
+  color: rgb(241, 241, 241);
+}
+
+
+.signup-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.signup-contain {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
+flex-wrap: wrap; 
+align-content: center;
+margin-left: 20%;
+
+}

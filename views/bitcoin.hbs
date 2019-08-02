@@ -1,0 +1,44 @@
+<body class="bitcoin-page">
+
+         <a href="/home"><h1 id="logo-home">CinchCoin</h1></a> 
+
+  <div class="home-header">
+    <a href="/useraccount">
+      <img id="goldcircle" src="/images/goldcircle.png">
+    </a>   
+    <h5 id="hello">My Coin : Bitcoin</h5>
+
+    
+  </div> 
+
+      <div class="bitcoin-container">
+        <div class="bit-crypt">
+          <div class="bit-ticker">
+            <script type="text/javascript" src="https://widget.coinlore.com/widgets/new-widget.js"></script><div class="coinlore-coin-widget" data-mcap="1" data-mcurrency="usd" data-d7="1" data-cwidth="100%" data-rank="1" data-vol="1" data-id="bitcoin" data-bcolor="#005284" data-tcolor="white" data-ccolor="white" data-pcolor="rgb(238, 210, 53)"></div>
+          </div>
+      <div class="bit-convert">
+        <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+          <coingecko-coin-converter-widget  coin-id="bitcoin" currency="usd" background-color="#005284" font-color="white" locale="en"></coingecko-coin-converter-widget>
+</div>  
+  </div>
+ 
+
+      <div class="search">
+        <form class="searchDates">
+          <div class="beg-end">
+            From: <input id="begDate" type="date"> 
+          </div>
+          <div class="beg-end">
+            To: <input id="endDate" type="date">
+          </div>
+        </form>
+          <div>
+            <button class="btn-search" onclick="dateSearch()"> Search</> 
+           </div> 
+      </div>
+      <canvas id="bitcoinChart"></canvas>
+    
+
+</div>
+</body>
+  
