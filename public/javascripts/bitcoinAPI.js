@@ -45,11 +45,14 @@ function dateSearch() {
 const ctx = document.getElementById('walletChart').getContext('2d');
 const walletChart = new Chart(ctx, {
     type: 'doughnut',
+    animation:{
+      animateScale:true
+  },
     data: {
         labels: ['Bitcoin', 'Ethereum', 'Litecoin', 'XRP'],
         datasets: [{
             label: 'Coins',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [920, 859, 540, 321],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -68,6 +71,13 @@ const walletChart = new Chart(ctx, {
         }]
     },
     options: {
+      "easeInCirc",
+      animateRotate : true,
+      animateScale : false,
+      responsive: true,
+      maintainAspectRatio: true,
+      showScale: true,
+      animateScale: true,
         scales: {
             yAxes: [{
                 ticks: {
