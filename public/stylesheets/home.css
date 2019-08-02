@@ -116,6 +116,7 @@ flex-direction: row;
 flex-wrap: wrap;
 flex-flow: flex-start; 
 text-align: center;
+font-size: 35px; 
 }
 
 .wallet-1 {
