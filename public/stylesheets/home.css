@@ -74,7 +74,8 @@ align-items: center;
 text-align: justify;
 flex-wrap: wrap; 
 align-content: center;
-margin: 15%;
+margin: 1%;
+width: 55%
 }
 
 .market-header {
