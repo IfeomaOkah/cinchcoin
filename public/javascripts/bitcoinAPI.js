@@ -71,7 +71,7 @@ const walletChart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: false
                 }
             }]
         }
