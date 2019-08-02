@@ -131,19 +131,19 @@ flex-flow: flex-start;
   border-bottom: 3px solid white;
   height: 53%;
   width: 46%; 
-  background-color: #BC9F3B;
+
 }
 
 .wallet-3 {
   border-top: 3px solid white;
   height: 50%;
   width: 46%; 
-  background-color: #84006e;
+ 
 }
 
 .wallet-4 {
   border-left: 3px solid rgb(255, 255, 255);
   height: 51%;
   width: 46%; 
-  background-color: rgb(52, 218, 1);
+
 }

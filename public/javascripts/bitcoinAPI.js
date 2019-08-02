@@ -49,7 +49,7 @@ const walletChart = new Chart(ctx, {
         labels: ['Bitcoin', 'Ethereum', 'Litecoin', 'XRP'],
         datasets: [{
             label: 'Coins',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [70,080.31, 30,340.17, 5,930.81, 2,004],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
