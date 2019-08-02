@@ -66,10 +66,9 @@ a {
 
 .signup {
   width: 100%;
-  height: 110%;
+  min-height: 100vh;
   background: #005284;
-  background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174) 121%);
-  text-align: center;
+  background-image: linear-gradient(#011F39, rgb(0,82,132), rgb(52, 226, 174)121%);
   color: rgb(241, 241, 241);
 }
 
@@ -82,7 +81,11 @@ a {
 }
 
 .signup-contain {
-  align-items: center;
-  text-align: justify;
-  flex-wrap: wrap; 
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: justify;
+flex-wrap: wrap; 
+align-content: center;
+margin-left: 20%;
 }
