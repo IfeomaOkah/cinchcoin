@@ -89,3 +89,9 @@ flex-wrap: wrap;
 align-content: center;
 margin-left: 20%;
 }
+
+# submit-btn {
+  font-size: 15px;
+  background:rgb(52, 226, 174);
+  color: white; 
+}
