@@ -60,6 +60,7 @@ router.post('/signup', (req, res, next) => {
 
 // Authenticate the user if the username and passwords are correct
 router.post("/login", (req, res, next) => {
+  debugger
   const theUsername = req.body.username;
   const thePassword = req.body.password;
 
@@ -79,6 +80,7 @@ router.post("/login", (req, res, next) => {
         return;
       }
       if (bcrypt.compareSync(thePassword, user.password)) {
+        debugger
         req.session.currentUser = user;
         res.redirect("/home");
       } else {
