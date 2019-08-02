@@ -36,8 +36,8 @@
 
 
 .home-container {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   flex-direction: column;
 }
 
@@ -48,16 +48,13 @@ align-items: center;
 text-align: justify;
 flex-wrap: wrap; 
 align-content: center;
-margin-left: 20%;
+/* margin-left: 20%; */
 
 }
 
 #coin-home {
-  height: 10vh;
+  height: 5vh;
   display: block;
-  margin: 5vh 9vh 5vh 3vh;  
-  margin: 17vh 20vh -4vh 0vh;
-  text-align: center;
 }
 
 
@@ -100,7 +97,7 @@ margin: 15%;
   display: flex; 
   flex-direction: row;
   justify-content: space-between;
-  margin: 9% 5% 17% 5%;
+  margin: 9% 5% 7% 5%;
 }
 
 #page {
@@ -118,6 +115,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 flex-flow: flex-start; 
+text-align: center;
 }
 
 .wallet-1 {
