@@ -15,64 +15,54 @@
 
 <div class="home-container"> 
   <div class="crypt">  
-{{!-- Home Menu --}}
-  <div id= "coin-home"class="menu">
-    <a href="/Market">Market</a>
-    <a href="/News">News</a>
-    <a href="/bitcoin">My Coins</a>
-  </div>
+    {{!-- Home Menu --}}
+      <div id= "coin-home"class="menu">
+        <a href="/Market">Market</a>
+        <a href="/News">News</a>
+        <a href="/bitcoin">My Coins</a>
+      </div>
 
 
-{{!-- Total Balance --}}
-  <div class="balance">
+    {{!-- Total Balance --}}
+      <div class="balance">
 
-    <h1>Total Balance: 2,640</h1>
+        <h1>Total Balance: 2,640</h1>
 
-    <div id="total-balance">
+        <div id="total-balance">
 
-  {{#each cinchcoin}}
+      {{#each cinchcoin}}
 
-    <div class="wallet-coins">
- <input type="text" name="bitcoin" value="{{this._doc.bitcoin}}">
-    <h3>{{this.bitcoin:}}<h3>
-        {{this._doc.ethereum}}
-        {{this._doc.litecoin}}
-        {{this._doc.xrp}} 
-  
+        <div class="wallet-coins">
+    <input type="text" name="bitcoin" value="{{this._doc.bitcoin}}">
+        <h3>{{this.bitcoin:}}<h3>
+            {{this._doc.ethereum}}
+            {{this._doc.litecoin}}
+            {{this._doc.xrp}} 
+      
+        </div>
+    {{/each}}  
+        </div>
+      </div>
+
+    {{!-- Wallet Chart --}}
+    <div id="walletDiv">
+      <canvas id="walletChart" width="400px" height="400px"></canvas>
     </div>
-{{/each}}  
+    <div class="wallet">
+      <div class="wallet-1">
+        <a href="/bitcoin">
+          <p>Bitcoin: 920 </p>
+        </a>
+      </div>
+      <div class="wallet-2">
+        <p>ethereum: 859</p>
+      </div>
+      <div class="wallet-3">
+        <p>Litecoin: 540  </p>
+      </div>
+      <div class="wallet-4">
+        <p>XRP: 321 </p>
+      </div>
     </div>
-  </div>
-
-{{!-- Wallet Chart --}}
-<div id="walletDiv">
-<canvas id="walletChart" width="400px" height="400px"></canvas>
-
-</div>
-
-<div class="wallet">
-<div class="wallet-1">
-  
-  <a href="/bitcoin">
-    <p>Bitcoin: 920 </p>
-    </a>
-  
-  
-</div>
-
-<div class="wallet-2">
-  <p>ethereum: 859</p>
-</div>
-<div class="wallet-3">
-  <p>Litecoin: 540  </p>
-</div>
-<div class="wallet-4">
-  <p>XRP: 321 </p>
-</div>
-  
-</div>
-
-
-
 </div> 
 </body>

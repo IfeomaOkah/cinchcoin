@@ -22,21 +22,19 @@
     text-align: justify;
     flex-wrap: wrap; 
     }
-
-    .bit-ticker {
-      margin: 6% 2% 10% 2%;
-      }
+  
+  .bit-ticker {
+    margin: 6% 2% 10% 2%;
+  }
     
-      .bit-convert {
-        margin: 6% 2% 10% 2%;
-        }  
+  .bit-convert {
+     margin: 6% 2% 10% 2%;
+  }  
 
 .searchDates {
   display: inline;
   color: black;
   font-size: 13px;
-  width: 70%;
-  margin-bottom: 20%;
 }
 
 #btn-search {
@@ -57,9 +55,4 @@
   background-color: aliceblue;
   
 }
-
-/* .coin-bit {
-  display: block;
-
-} */
 

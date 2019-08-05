@@ -1,52 +1,36 @@
 {{!-- signup form --}}
 <body class="signup">
-
   <div>
       <a href="/home"><h3 id="logo-home">CinchCoin </h3></a>
-    
-  </div>
+    </div>
+    <div class="signup-container">
+        <div class="signup-contain"></div>
+      {{#if errorMessage}}
+        {{errorMessage}}
+      {{/if}}
 
+      {{#if errorMessage2}}
+        {{errorMessage2}}
+      {{/if}}
 
+    <form id="form" action="/signup" method="POST">
+      {{!-- Username & Password --}}
+      <input type="text" name="username"
+        placeholder="Your username">
 
-
-<div class="signup-container">
-  <div class="signup-contain"></div>
-{{#if errorMessage}}
-  {{errorMessage}}
-{{/if}}
-
-{{#if errorMessage2}}
-  {{errorMessage2}}
-{{/if}}
-
-
-<form id="form" action="/signup" method="POST">
-{{!-- Username & Password --}}
-  
-    <input type="text" name="username"
-      placeholder="Your username">
-
-   
-    <input type="password" name="password"
-      placeholder="Your password">
-  {{!-- <button type="submit">Create account</button> --}}
-{{!-- Coin Wallet --}}
-  
-{{!-- <form action="/totalbalance" method="post">   --}}
+      <input type="password" name="password"
+        placeholder="Your password">
+      {{!-- <button type="submit">Create account</button> --}}
+      {{!-- Coin Wallet --}}
+        
+        {{!-- <form action="/totalbalance" method="post">   --}}
  
       <input  type="number" name="bitcoin" placeholder="Bitcoin 0">
- 
-
       <input  type="number" name="ethereum" placeholder="Ethereum 0">
- 
-  
-    
       <input  type="number" name="litecoin" placeholder="Litecoin 0">  
- 
-  
       <input  type="number" name="xrp" placeholder="XRP 0">  
 
- <button id="submit-btn" type="submit">Create account</button>
- </form>
-  </div>
+        <button id="submit-btn" type="submit">Create account</button>
+      </form>
+    </div>
   </body>

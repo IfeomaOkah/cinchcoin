@@ -20,11 +20,6 @@ router.get("/bitcoin", (req, res, next) => {
 });
 
 
-// Get Ethereum page
-router.get("/ether", (req, res, next) => {
-  res.render("ether");
-});
-
 // GET Total Balance 
 router.get("/totalbalance", (req, res, next) => {
   res.render("totalbalance");
@@ -58,10 +53,6 @@ router.post('/home', (req,  res, next) => {
 router.get("/market", (req, res, next) => {
   res.render("market");
 });
-
-
-
-
 
 
 module.exports = router;

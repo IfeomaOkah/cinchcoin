@@ -53,12 +53,11 @@ router.post('/signup', (req, res, next) => {
       })
     });
   })
-
-
 });
 
 
 // Authenticate the user if the username and passwords are correct
+
 router.post("/login", (req, res, next) => {
   debugger
   const theUsername = req.body.username;
@@ -115,6 +114,5 @@ router.use((req, res, next) => {
     res.redirect("/");        
   }                                
 });                               
-
 
 module.exports = router;
